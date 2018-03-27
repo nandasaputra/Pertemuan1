@@ -1,0 +1,181 @@
+	*{
+   box-sizing:border-box;
+
+ }
+	body {
+	 	font-family: Arial;
+	 	padding: 10px;
+	 	background: #f1f1f1;
+	}	
+	/* Mengatur CSS Pada Header */
+	.header {
+	  padding: 30px;
+	  text-align: center;
+	  background: #00B233;
+	}
+
+	.header h1 {
+	  font-size: 50px;
+	  margin: 0;
+	  color: #f1f1f1;
+
+	}
+	.header hr {
+		width: 245px;
+		margin: 5px auto;
+		border-color: #f1f1f1;
+	}
+	.header p {
+		margin-top: 15px;
+		margin-bottom: 15px;
+		font-size: 20px;
+		color: #f1f1f1;
+	}
+	/* Mengatur Style Pada Navigation Bar */
+	.topnav {
+	    overflow: hidden;
+	    background-color: #333;
+	    box-shadow: 0px 3px 10px green;
+	}
+	.cen {
+		margin: 0 auto;
+		width: 450px;
+	}
+	.topnav a {
+	    float: left;
+	    display: block;
+	    color: #f2f2f2;
+	    text-align: center;
+	    padding: 14px 50px;
+	    text-decoration: none;
+	}
+
+	.topnav a:hover {
+	    background-color: #ddd;
+	    color: #00B233;
+	}
+	/* Membuat Kolom Sebelah Kiri */
+	.leftcolumn {   
+	  float: left;
+	  width: 75%;
+	}
+	/* Membuat Kolom Sebelah Kanan */
+	.rightcolumn {
+	  float: left;
+	  width: 25%;
+	  padding-left: 3%;
+	}
+	.About {
+		text-align: center;
+		width: 100%;
+	}
+	.About img {
+		margin-top: 16px;
+	}
+	.Post a {
+		display: inline-block;
+		text-decoration: none;
+		margin: 5px;
+		color: black;
+	}
+	.Post a {
+		color: #00B233;
+	}
+	.Follow a {
+		display: inline-block;
+		text-decoration: none;
+		margin: 5px;
+		color: #00B233;
+	}
+	.readmore a {
+		display: inline-block;
+		margin-top: 30px;
+		background-color: #00B233;
+		padding: 5px;
+		text-decoration: none;
+		color: white;
+	}
+	.tengah {
+		width: 350px;
+		text-align: left;
+		margin: 30px auto;
+	}
+	.tengah p {
+		padding: 2px;
+	}
+	/* Membuat Gambar */
+	.images {
+	  width: 100%;
+	  padding: 20px;
+	  text-align: center;
+	  margin: 50px 0;
+	}
+	img {
+		border-radius: 50%;
+	}
+	.tabel1 {
+		margin-top: 70px;
+		margin-bottom: 300px;
+	}
+	.tabel1 table {
+		margin: 0 auto;
+	}
+	.tabel1 td {
+		padding: 5px;
+	}
+	.tabel2 table {
+		margin: 0 auto;
+	}
+	.tabel2 td {
+		padding: 5px;
+	}
+
+	/* Membuat efek backround pada artikel */
+	.backartikel {
+	  background-color: white;
+	  padding: 20px;
+	  margin-top: 20px;
+	}
+	.backartikel hr {
+		border-color: #00B233;
+	}
+	.backartikel h2 {
+		display: inline-block;
+		color: #00B233;
+		margin: 0;
+	}
+	.backartikel h3 {
+		color: #00B233;
+		margin: 0;
+	}
+	.backartikel h5 {
+		margin: 0;
+	}
+	/* Membuat Sidebar */ 
+	.sidebar::after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+	/* Membuat Footer */
+	.footer {
+	  padding: 5px;
+	  text-align: center;
+	  background: #333;
+	}
+	.footer p {
+		color: white;
+		font-size: 16px;
+	}
+	@media (max-width: 800px) {
+	  .leftcolumn, .rightcolumn {   
+	      width: 100%;
+	      padding: 0;
+	  }
+	}
+	@media (max-width: 400px) {
+	  .topnav a {
+	      float: none;
+	      width: 100%;
+	  }
+	}
